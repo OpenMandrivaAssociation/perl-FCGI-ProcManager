@@ -12,7 +12,6 @@ Group:		Development/Perl
 Source:		%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 FCGI::ProcManager is used to serve as a FastCGI process manager. By
