@@ -1,15 +1,15 @@
 %define upstream_name	 FCGI-ProcManager
-%define upstream_version 0.19
+%define upstream_version 0.24
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.24
+Release:	1
 
 Summary:	Functions for managing FastCGI applications
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/FCGI/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/FCGI/FCGI-ProcManager-0.24.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -66,4 +66,5 @@ make test
 
 * Wed Jun 07 2006 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 0.17-1mdv2007.0
 - Initial Mandriva release.
+
 

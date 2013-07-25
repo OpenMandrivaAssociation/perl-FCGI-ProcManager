@@ -1,2 +1,4 @@
+removed_sources:
+  FCGI-ProcManager-0.19.tar.gz: 720dafcf593339bc1582fccf3ac0a391a010b4bb
 sources:
-  "FCGI-ProcManager-0.19.tar.gz": 720dafcf593339bc1582fccf3ac0a391a010b4bb
+  FCGI-ProcManager-0.24.tar.gz: 3037648fbe76ca9a58c9e6fce68a6b661b8bba93
