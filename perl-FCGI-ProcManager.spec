@@ -1,15 +1,15 @@
 %define upstream_name	 FCGI-ProcManager
-%define upstream_version 0.24
+%define upstream_version 0.28
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.24
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Functions for managing FastCGI applications
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/FCGI/FCGI-ProcManager-0.24.tar.gz
+Url:		https://git.shadowcat.co.uk/catagits/FCGI-ProcManager
+Source0:	https://cpan.metacpan.org/authors/id/A/AR/ARODLAND/FCGI-ProcManager-0.28.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
