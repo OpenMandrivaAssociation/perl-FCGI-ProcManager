@@ -1,9 +1,7 @@
 %define upstream_name	 FCGI-ProcManager
-%define upstream_version 0.28
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.28
+Release:	2
 
 Summary:	Functions for managing FastCGI applications
 License:	GPL+ or Artistic
@@ -22,7 +20,7 @@ their web applications, and can take advantage of copy-on-write semantics
 prevalent in UNIX kernel process management.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -43,8 +41,7 @@ make test
 * Sat Jul 25 2009 Jérôme Quelin <jquelin@mandriva.org> 0.190.0-1mdv2010.0
 + Revision: 399601
 - update to 0.19
-- using %%perl_convert_version
-- fixed license & source fields
+- using %0.28 fixed license & source fields
 
 * Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.18-3mdv2009.0
 + Revision: 256865
